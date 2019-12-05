@@ -10,9 +10,9 @@
 
 # SlackTweet: A Team Project in Python 3
 
-This is a team project explores building a Slackbot using Python.  Of course there are many third-party platforms out there that can automate the process of creating AI-driven bots. But as emerging software engineers, we understand that by diving deep and exploring the nuts and bolts, we acquire a rich knowledge of how things work which will serve us well in the future, as well as honing our skill set of software best practices.  This is a longer-duration assignment-- you will be researching, planning, and experimenting and task-switching between other activities.
+This project explores building a Slackbot using Python 3.  Of course there are many third-party platforms out there that can automate the process of creating AI-driven bots. But as emerging software engineers, we understand that by diving deep and exploring the nuts and bolts, we acquire a rich knowledge of how things work which will serve us well in the future, as well as honing our skill set of software best practices.  This is a longer-duration assignment-- you will be researching, planning, and experimenting and task-switching between other activities.  Be sure to allocate sufficient time!
 
-This assignment integrates many concepts that you have learned over the last few weeks.  The goal is to create a slackbot framework that you can take with you to extend, adapt, and reuse in many ways.  You will be connecting your Slackbot to your own personal twitter account, and controlling by with a set of commands.
+This assignment integrates many concepts that you have learned over the last few weeks.  The goal is to create a slackbot framework that you can take with you to extend, adapt, and reuse in many ways.  You will be connecting your Slackbot to your own personal twitter account, and controlling it with a set of commands.
 
 Yes, there already exists an off-the-shelf [twitter integration](https://slack.com/help/articles/205346227) that you can enable within a Slack workspace.  However, this app is limited in its functionality.  You can only post tweets and retweets from a single account.  No hashtag support.
 
@@ -59,13 +59,13 @@ Add Twitter communications:
  - Install the [Tweepy python package](http://www.tweepy.org/) into your project's virtual environment.
  - Make sure you can programmatically log in to your twitter account (using the consumer and access tokens) and retrieve status messages.  
  - Use the [tweepy.StreamListener](https://tweepy.readthedocs.io/en/v3.5.0/streaming_how_to.html#streaming-with-tweepy) class to verify that you can attach to the "Twitter Firehose" and receive tweets that are filtered on certain keywords.
- - You may wish to define a `TwitterClient` class object that inherits from tweepy.Streamlistener.
+ - You may wish to define a `TwitterClient` class object that inherits from `tweepy.Streamlistener.`
 
 ## Part C: The Integration
 Create a command and control module that connects both clients.  Be aware that there won't be a database or any kind of local storage on this project, so any bot configuration settings such as your selected Twitter filters won't persist between Bot sessions.
 
  - Adapt the code that you wrote for the Slack client, to publish tweets coming from the Twitter client.
- - You'll need to create a command parser for your integration-- something to instruct SlackTweet about which twitter users, keywords or hashtags to subscribe to.  Argparse might be useful here.
+ - You'll need to create a command parser for your integration-- something to instruct SlackTweet about which twitter users, keywords or hashtags to subscribe to.
  - Implement a full CRUD (Create, Read, Update, Delete) interface for twitter subscriptions:
    - Be able to list all current subscriptions
    - Add and delete subscriptions
@@ -112,7 +112,7 @@ heroku logs --tail
 ``` 
 
 ## Guidance Notes
-You will submit a link to a github repository named backend-slacktweet, but you will create and curate this repository on your own instead of forking from this Kenzie repo.  Remember that your work on github will become your own personal portfolio that you will want to show off to recruiters and potential employers.   With that said, here are a few best-practices that we will be looking for in your repo:
+You will submit a link to a github repository that you create and curate on your own instead of forking from this Kenzie repo.  Remember that your work on github will become your own personal portfolio that you will want to show off to recruiters and potential employers.   With that said, here are a few best-practices that we will be looking for in your repo:
 
 ## Source Code Best Practices
 - PEP8: No warnings
@@ -122,7 +122,7 @@ You will submit a link to a github repository named backend-slacktweet, but you 
 - Readability, maintainability
 
 ## Development Best Practices
- - ollaborate with your Teammate. Research and plan .. Use VSCode Liveshare for pairing sessions
+ - Collaborate with your Teammate. Research and plan .. Use VSCode Liveshare for pairing sessions
  - Create and use a project virtual environment with pipenv.  DO NOT commit your virtual environment to your repo!
  - pipenv install any new packages into your virtualenv
  - Configure your IDE to use the interpreter from your virtual environment
@@ -131,11 +131,11 @@ You will submit a link to a github repository named backend-slacktweet, but you 
  - Use python logging (not print statements) for all output messages. See additional notes about logging below.
 
 ## Repo Best Practices
- - Have a descriptive top-level README.md.  If you don't know what a good README looks like, google "README best practices"
- - .gitignore is present, ingorning .vscode/ and .env and .log and venv
- - requirements.txt from pip freeze
+ - Have a descriptive top-level README.md (like this one!).  If you don't know what a good README looks like, google "README best practices"
+ - `.gitignore` is present, ignorning `.vscode/` and `.env` and `.log` and `venv/`
+ - `requirements.txt` from pip freeze
  - No hard-coded API keys or tokens anywhere.  __DO NOT LEAK TOKENS__.
- - Small commits with meaningful messages-- not "blah foo bar" or "asdfadfadfadfadfasdfasdf"
+ - Small, incremental commits with meaningful messages-- not "blah foo bar" or "asdfadfadfadfadfasdfasdf"
  - Don't commit log files or virtual envs to the repo.
  
 
