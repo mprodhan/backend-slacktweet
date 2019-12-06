@@ -37,6 +37,7 @@ For this assignment, we will be using two separate, private Slack Team accounts.
 You will need to set up a twitter account.  You can use your own existing account, or create a new one.  The important part is to register for _developer API access_.  This is a new requirement since July 2018.  You will need to fill out a short questionnaire about your intended usage of the developer account. Your answers should reflect that you are a student who is learning the Twitter API and you do not intend to post any tweets of any kind.
 
  - https://developer.twitter.com/en.html
+ - <img src="img/twitter_quiz.png" height="360px">
 
 Once you have been approved for developer access, Follow the Twitter documentation on creating an app.  Then use the `Keys and Tokens` tab to generate a pair of Consumer keys, and a pair of Access keys.
 
