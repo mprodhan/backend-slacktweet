@@ -30,7 +30,8 @@ The goal is to create a _controllable_, long-running Slackbot that subscribes to
 ## Setup - Slack Account
 For this assignment, we will be using two separate, private Slack Team accounts.  These accounts are only used by the SE cohorts for this assignment, there are no other users.  The reason for using two separate accounts is because Slack free team accounts limit the number of app integrations to max of 10.  Please use these self sign-up links to create your accounts.  Once you are in, send a message to your instructor to ask for *admin* privilege.  You will need `admin` to create a bot application on the Slack website.
 
- - [kenziebot.slack.com](https://join.slack.com/t/kenziebot/shared_invite/enQtNDk4NzMxNTcyMTE5LWFkYWEwNTNjMGZlZDkyYzcxYzk4M2FjYzdlMGMyM2FiNzI3YTNhMzRmNGQ3OTJlMTk5ODk0YTRlOTM1OTAwMGU) (self sign up link)
+ - [kenziebot.slack.com](https://join.slack.com/t/kenziebot/shared_invite/enQtNDk4NzMxNTcyMTE5LWI0OWRmYjYzNjdkZmRlMmE2NWU3ZTc1OWZlZGFiOTAwNDcwN2MxZjI0MjU4YmU0OTcyMTczNzdmMGNhZjRhMzM) (self sign up link)
+ 
  - [kenziebot2.slack.com](https://join.slack.com/t/kenziebot2/shared_invite/enQtNDk3MDc3NTE3NDQxLTg1M2EwNzM2N2QzN2RjMDA0MGI4YmYwYjgwN2UzNGEwOGMzNzg3MWNiMzQ3NGQwZWI5YWY1NzdkZjlmYjhlNGQ)  (self sign up link)
 
 ## Setup - Twitter Account
