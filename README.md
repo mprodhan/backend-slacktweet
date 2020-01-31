@@ -32,7 +32,7 @@ For this assignment, we will be using two separate, private Slack Team accounts.
 
  - [kenziebot.slack.com](https://join.slack.com/t/kenziebot/shared_invite/enQtNDk4NzMxNTcyMTE5LWI0OWRmYjYzNjdkZmRlMmE2NWU3ZTc1OWZlZGFiOTAwNDcwN2MxZjI0MjU4YmU0OTcyMTczNzdmMGNhZjRhMzM) (self sign up link)
  
- - [kenziebot2.slack.com](https://join.slack.com/t/kenziebot2/shared_invite/enQtNDk3MDc3NTE3NDQxLTg1M2EwNzM2N2QzN2RjMDA0MGI4YmYwYjgwN2UzNGEwOGMzNzg3MWNiMzQ3NGQwZWI5YWY1NzdkZjlmYjhlNGQ)  (self sign up link)
+ - [kenziebot2.slack.com](https://join.slack.com/t/kenziebot2/shared_invite/enQtNDk3MDc3NTE3NDQxLWQ3ZDQ3Mjg5NjBlNjIzNGNlMTFmY2UzZDg2MjZhMDZmMWNlMjZjZGQ3NTNhM2U2OGRiY2E2NDk5NTk5YzExODg)  (self sign up link)
  
 After you have signed up on either of these Slack workspaces (and have been granted the 'admin' privilege) you are ready to create your slack app.  Visit the [https://api.slack.com/apps](https://api.slack.com/apps) page and follow the instructions to create an app.  After your app is created, use the configuration menu to:
  - Add a **bot** to your app to allow users to exchange messages with your app
